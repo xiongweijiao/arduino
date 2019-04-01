@@ -1,0 +1,40 @@
+{
+  "name": "LobotServoController",
+  "keywords": "Datatypes, LobotServvo, LobotServoController, moveServo, moveServos,runActionGroup,stopActionGroup",
+  "description": "Arduino Library for 17LobotServoController",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/xiongweijiao/arduino.git"
+  },
+  "authors":
+  [
+    {
+      "name": "jiao",
+      "email": "miles@mnetcs.com",
+      "url": "http://www.milesburton.com",
+      "maintainer": true
+    },
+    {
+      "name": "Tim Newsome",
+      "email": "nuisance@casualhacker.net"
+    },
+    {
+      "name": "Guil Barros",
+      "email": "gfbarros@bappos.com"
+    },
+    {
+      "name": "Rob Tillaart",
+      "email": "rob.tillaart@gmail.com"
+    }
+  ],
+  "dependencies":
+  {
+    "name": "OneWire",
+    "authors": "Paul Stoffregen",
+    "frameworks": "arduino"
+  },
+  "version": "1.1.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
