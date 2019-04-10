@@ -108,9 +108,9 @@ void LobotServoController::moveServos(LobotServo servos[], uint8_t Num, uint16_t
 void LobotServoController::moveServos(uint8_t Num, uint16_t Time, ...)
 {
 	uint8_t buf[128];
-	va_list arg_ptr = NULL;
+	va_list arg_ptr;
 	va_start(arg_ptr, Time); //取得可变参数首地址
-	if (Num < 1 || Num > 32 || (!(Time > 0)) || arg_ptr == NULL) {
+	if (Num < 1 || Num > 32 || (!(Time > 0))) {
 		return; //舵机数不能为零和大与32，时间不能为零，可变参数不能为空
 	}
 	buf[0] = FRAME_HEADER;     //填充帧头
