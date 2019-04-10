@@ -30,7 +30,7 @@
   ],
   "dependencies":
   {
-    "name": "SoftwareSerial",
+    
     "authors": "Paul Stoffregen",
     "frameworks": "arduino"
   },
